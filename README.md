@@ -12,7 +12,7 @@ ARMACOM includes a set of frequenctly used commands. For more advanced usage, se
 ["COM1", 9600, 8, "none", 1] call ARMACOM_fnc_config    //Configure COM1 to 9600/8N1 (baud rate, data bits, parity bits, stop bits)
 ```
 
-##Commands
+## Commands
 | Command | Arguments | Description |
 | --- | --- | --- |
 | `listPorts` | None | Returns a list of open COM ports and their DOS device names |
