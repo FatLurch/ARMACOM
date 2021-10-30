@@ -6,9 +6,7 @@ The extension that powers ARMACOM and the additional functions it provides are c
 ARMACOM includes a set of frequenctly used commands. For more advanced usage, see the link to the ARMACOM extension above.
 
 example:
-'''
-[] call ARMACOM_fnc_listPorts
-'''
+```[] call ARMACOM_fnc_listPorts```
 
 
 
