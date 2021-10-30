@@ -5,15 +5,14 @@ The extension that powers ARMACOM and the additional functions it provides are c
 
 ARMACOM includes a set of frequenctly used commands. For more advanced usage, see the link to the ARMACOM extension above.
 
-## Examples:
+## Command Examples:
 ```
 [] call ARMACOM_fnc_listPorts;                          //list the COM ports available
 ["COM1"] call ARMACOM_fnc_connect;                      //Connect to COM1
 ["COM1", 9600, 8, "none", 1] call ARMACOM_fnc_config    //Configure COM1 to 9600/8N1 (baud rate, data bits, parity bits, stop bits)
 ```
 
-
-
+##Commands
 | Command | Arguments | Description |
 | --- | --- | --- |
 | `listPorts` | None | Returns a list of open COM ports and their DOS device names |
