@@ -11,7 +11,7 @@ ARMACOM includes a set of frequenctly used commands. For more advanced usage, se
 ["COM1"] call ARMACOM_fnc_connect;                      //Connect to COM1
 ["COM1", 9600, 8, "none", 1] call ARMACOM_fnc_config;   //Configure COM1 to 9600/8N1 (baud rate, data bits, parity bits, stop bits)
 ["COM1"] call ARMACOM_fnc_useWriteThread;               //Configure to use threaded writes (improves performance if you're performing frequenct write operations)
-["COM1", "Message"] call ARMACOM_fnc_write;            //Send the string "Message" to COM1
+["COM1", "Message"] call ARMACOM_fnc_write;             //Send the string "Message" to COM1
 ```
 
 ## Commands
