@@ -3,6 +3,12 @@ ARMACOM provides a framework for ARMA to communicate with Arduinos and any other
 
 The extension that powers ARMACOM and the additional functions it provides are covered in a seperate GitHub here: https://github.com/googleben/ArmaCOM
 
+ARMACOM includes a set of frequenctly used commands. For more advanced usage, see the link to the ARMACOM extension above.
+
+example:
+'''[] call ARMACOM_fnc_listPorts'''
+
+
 
 | Command | Arguments | Description |
 | --- | --- | --- |
