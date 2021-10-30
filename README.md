@@ -19,4 +19,5 @@ ARMACOM includes a set of frequenctly used commands. For more advanced usage, se
 | --- | --- | --- | --- |
 | `ARMACOM_fnc_listPorts` | None | Returns a list of available COM ports | List of Ports |
 | `ARMACOM_fnc_connect` | `portName` | Connects to the COM port | `true` on success, `false` on failure |
+| `ARMACOM_fnc_disconnect` | `portName` | Disconnects from the COM port | `true` on success, `false` on failure |
 
