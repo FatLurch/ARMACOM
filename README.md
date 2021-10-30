@@ -15,8 +15,8 @@ ARMACOM includes a set of frequenctly used commands. For more advanced usage, se
 ```
 
 ## Commands
-| Command | Arguments | Description |
+| Command | Arguments | Description | Return |
 | --- | --- | --- |
-| `listPorts` | None | Returns a list of open COM ports and their DOS device names |
-| `listBaudRates` | None | Returns a list of available baud rate setting values and their indices |
-| `listStopBits` | None | Returns a list of available stop bits setting values and their indicies |
+| `ARMACOM_fnc_listPorts` | None | Returns a list of available COM ports | List of Ports |
+| `ARMACOM_fnc_connect` | `portName` | Connects to the COM port | `true` on success, `false` on failure |
+
