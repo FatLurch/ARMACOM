@@ -18,9 +18,9 @@ ARMACOM includes a set of frequenctly used commands. For more advanced usage, se
 | Command | Arguments | Description | Return |
 | --- | --- | --- | --- |
 | `ARMACOM_fnc_listPorts` | None | Returns a list of available COM ports | List of Ports |
-| `ARMACOM_fnc_connect` | `portName` | Connects to the COM port <br>(9600/8N1 settings default) | `true` on success, `false` on failure |
+| `ARMACOM_fnc_connect` | `portName` | Connects to the COM port <br>*(9600/8N1 settings default)* | `true` on success, `false` on failure |
 | `ARMACOM_fnc_disconnect` | `portName` | Disconnects from the COM port | `true` on success, `false` on failure |
 | `ARMACOM_fnc_write` | `portName`,`message` | Sends message to COM port | `true` on success, `false` on failure |
 | `ARMACOM_fnc_config` | `portName`, `baud`,`data`,<br>`parity`, `stop` | Configures COM port | None |
 | `ARMACOM_fnc_getBaudIndex` | `baudRate` | Returns the baudRate index needed for a given bitrate | baudIndex |
-| `ARMACOM_fnc_useWriteThread` | `portName` | Configures the port to use threaded writes <br>(Improves performance for frequent writes) | None |
+| `ARMACOM_fnc_useWriteThread` | `portName` | Configures the port to use threaded writes <br>*(Improves performance for frequent writes)* | None |
