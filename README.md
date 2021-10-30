@@ -7,7 +7,7 @@ ARMACOM includes a set of frequenctly used commands. For more advanced usage, se
 
 ## Command Examples:
 ```
-[] call ARMACOM_fnc_listPorts;                          //list the COM ports available
+[] call ARMACOM_fnc_listPorts;                          //list the available COM ports
 ["COM1"] call ARMACOM_fnc_connect;                      //Connect to COM1
 ["COM1", 9600, 8, "none", 1] call ARMACOM_fnc_config    //Configure COM1 to 9600/8N1 (baud rate, data bits, parity bits, stop bits)
 ```
