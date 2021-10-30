@@ -21,5 +21,5 @@ ARMACOM includes a set of frequenctly used commands. For more advanced usage, se
 | `ARMACOM_fnc_connect` | `portName` | Connects to the COM port | `true` on success, `false` on failure |
 | `ARMACOM_fnc_disconnect` | `portName` | Disconnects from the COM port | `true` on success, `false` on failure |
 | `ARMACOM_fnc_write` | `portName`,`message` | Sends message to COM port | `true` on success, `false` on failure |
-| `ARMACOM_fnc_config` | `baud`,`data`,`parity`, `stop` | Configures COM port | None |
+| `ARMACOM_fnc_config` | `portName`, `baud`,`data`,`parity`, `stop` | Configures COM port | None |
 
